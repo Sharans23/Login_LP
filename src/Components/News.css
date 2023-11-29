@@ -1,0 +1,31 @@
+body{
+    /* background-color: antiquewhite; */
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.cardContent{
+    margin:20px;
+}
+
+.title{
+    max-width: 40ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+}
+
+.description{
+    max-width: 70ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+}
